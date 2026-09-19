@@ -9,3 +9,7 @@ follows [Semantic Versioning](VERSIONING.md).
 ### Added
 
 - Nothing yet.
+
+### Fixed
+
+- Limit the initial CodeQL matrix to workflow analysis until application source is added.

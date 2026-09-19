@@ -1,7 +1,7 @@
 name: CodeQL
 
-# CodeQL has no PHP analyser, so it covers the JavaScript that ships with the
-# interface and the workflows themselves. Semgrep carries PHP in security.yml.
+# This template contains workflows but no application source. Add supported
+# application languages to the matrix when adding their source files.
 #
 # Code scanning needs the paid Code Security add-on on a private repository.
 # Every job here is gated on the repository being public and starts running by
@@ -35,7 +35,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [javascript-typescript, actions]
+        language: [actions]
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
