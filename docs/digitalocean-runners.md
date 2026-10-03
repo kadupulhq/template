@@ -48,3 +48,7 @@ Rollback: set the variable to `false` and cancel queued self-hosted runs.
 New eligible runs use GitHub-hosted runners; already queued jobs do not change
 their runner selection. Re-run cancelled work after rollback. No credentials
 belong in this document or repository variables.
+
+The initial [manual runner smoke](https://github.com/kadupulhq/template/actions/runs/37111090358)
+completed successfully on a disposable DigitalOcean runner. Controller logs and
+the DigitalOcean inventory confirmed deletion of its droplet after completion.
