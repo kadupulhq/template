@@ -1,5 +1,7 @@
 # Template
 
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/kadupulhq/template/badge)](https://scorecard.dev/viewer/?uri=github.com/kadupulhq/template)
+
 Starting point for a new repository in this organisation. Create from it with
 **Use this template**, or:
 
