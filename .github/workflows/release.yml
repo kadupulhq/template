@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   release:
-    uses: kadupulhq/.github/.github/workflows/release.yml@7455e0f5836d3a220bf94ace2baa59968efe4545
+    uses: kadupulhq/.github/.github/workflows/release.yml@990088520c59eba7a7349f422261accfab732dc7
     # Turning on tarball or image below also needs packages: write,
     # id-token: write and attestations: write here. A called workflow can only
     # narrow the caller's token, never widen it.
